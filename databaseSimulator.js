@@ -1,13 +1,3 @@
-/*
-Mock Db
-get() => gets value from deepest nested transaction up then persistent db value
-set() => sets value in current transaction
-count() => gets count of all values (including transactional state)
-newTransaction() => starts transaction
-commit() => commits current transaction
-rollback() => rolls back current transaction
-*/
-
 class DatabaseSimulator{
   data = {};
   transactions = [];
